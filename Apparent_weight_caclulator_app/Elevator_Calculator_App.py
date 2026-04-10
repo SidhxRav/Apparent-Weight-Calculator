@@ -20,7 +20,7 @@ st.markdown(
 )
 
 st.markdown(
-    "<p style='text-align: center; color: grey;'>'Always take a shit before the shit takes you' - Prajwal Raj</p>",
+    "<p style='text-align: center; color: grey;'>An interactive physics simulation by Sidh Raval :D</p>",
     unsafe_allow_html=True
 )
 
@@ -186,3 +186,25 @@ with col3:
 
     if gravity != "Custom":
         st.write(f"Selected planet/body: **{gravity}**")
+
+st.markdown("""
+<style>
+.footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    font-size: 14px;
+    color: grey;
+    background-color: rgba(255,255,255,0.8);
+    backdrop-filter: blur(5px);
+    z-index: 999;
+}
+</style>
+
+<div class="footer">
+    "Always take a shit before the shit takes you" — Prajwal Raj
+</div>
+""", unsafe_allow_html=True)

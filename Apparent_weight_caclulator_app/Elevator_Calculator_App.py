@@ -163,7 +163,7 @@ with col3:
     st.metric("Normal Weight (N):", f"{normal_weight:.2f}")
     st.metric("Apparent Weight (N):", f"{displayed_weight:.2f}")
     st.metric("Normal Mass (kg):", f"{normal_mass:.2f}")
-    st.metric("Apparent Mass (kg):", f"{apparent_mass:.2f}")
+    st.metric("Apparent Mass (kg):", f"{displayed_mass:.2f}")
 
     if apparent_weight < 0:
         st.error("No contact with the floor(Free-fall).")

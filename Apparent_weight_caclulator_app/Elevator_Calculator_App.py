@@ -20,7 +20,6 @@ st.markdown(
 )
 
 st.markdown(
-    "<p style='text-align: center; color: grey;'>An interactive physics simulator by Sidh Raval :3</p>",
     "<p style='text-align: center; color: grey;'>'Always take a shit before the shit takes you' - Prajwal Raj</p>",
     unsafe_allow_html=True
 )

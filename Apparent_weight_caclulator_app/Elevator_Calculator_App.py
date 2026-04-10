@@ -24,6 +24,13 @@ st.markdown(
     unsafe_allow_html=True
 )
 
+st.markdown(
+    f'''<footer>
+      <p>&copy; 2024 Your Company Name</p>
+    </footer>''',
+    unsafe_allow_html=True
+)
+
 col1, col2, col3 = st.columns([1, 2, 1])
 
 #====================================================

@@ -133,7 +133,7 @@ html = f"""
     }}
 
     .line1 {{ left: 0px;  top: 0px;   animation-delay: 0s; }}
-    .line2 {{ left: 75x;  top: 35px;  animation-delay: 0.12s; }}
+    .line2 {{ left: 75px;  top: 35px;  animation-delay: 0.12s; }}
     .line3 {{ left: 150px;  top: 75px;  animation-delay: 0.24s; }}
     .line4 {{ left: 240px; top: 20px;  animation-delay: 0.36s; }}
     .line5 {{ left: 300px; top: 100px; animation-delay: 0.48s; }}

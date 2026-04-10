@@ -5,9 +5,12 @@ import base64
 
 st.set_page_config(layout="wide")
 
+BASE_DIR = Path(__file__).parent
+
 def svg_to_uri(path):
-    svg = Path(path).read_text()
-    b64 = base64.b64encode(svg.encode()).decode()
+    svg_path = BASE_DIR / path
+    svg = svg_path.read_text(encoding="utf-8")
+    b64 = base64.b64encode(svg.encode("utf-8")).decode("utf-8")
     return f"data:image/svg+xml;base64,{b64}"
 
 

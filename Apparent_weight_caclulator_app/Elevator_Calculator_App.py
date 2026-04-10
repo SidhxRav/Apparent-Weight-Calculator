@@ -26,7 +26,7 @@ st.markdown(
 
 st.markdown(
     f'''<footer>
-      <p>&copy; 2024 Your Company Name</p>
+      <p>&copy; SidhxRav 2026</p>
     </footer>''',
     unsafe_allow_html=True
 )
